@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="images/M-min.png" type="image/x-icon">
+
+    <title>Portifolio MarcosDS</title>
+
+    <!--BOX-ICONS-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container" id="home">
+      <nav class="scroll">
+        <div class="logo">MarcosDS<span class="logo-point">.</span></div>
+        <ul class="nav_menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#tabs">Sobre</a></li>
+          <li><a href="#portifolio">Projetos</a></li>
+          <li><a href="#services">Serviços</a></li>
+        </ul>
+        <div class="links">
+
+          <a href="https://api.whatsapp.com/send?phone=5513988217750" target="_blank" class="contato"><i class="bx bxl-whatsapp" title="Me chama no WhatsApp"></i></a>
+          <a href="https://github.com/MarcosDS013" target="_blank"><i class='bx bxl-github'></i></a>
+          <a href="https://www.linkedin.com/in/marcos-dias-da-silva-607031193/"><i class="bx bxl-linkedin"></i></a>
+        </div>
+        <button id="menu-btn"><i class='bx bx-menu'></i></button>
+      </nav>
+      <ul class="responsive-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#tabs">Sobre</a></li>
+        <li><a href="#portifolio">Projetos</a></li>
+        <li><a href="#services">Serviços</a></li>
+      </ul>
+      
+      <br /><br />
+      <div id="icon" onclick="openColorBox()">
+        <i class="bx bxs-palette"></i>
+      </div>
+
+      <div id="colorBox">
+        <div class="colorOption orange" onclick="changeColor('orange')">
+          <i class="bx bx-spray-can"></i>
+        </div>
+        <div class="colorOption pink" onclick="changeColor('pink')">
+          <i class="bx bx-spray-can"></i>
+        </div>
+        <div class="colorOption blue" onclick="changeColor('blue')">
+          <i class="bx bx-spray-can"></i>
+        </div>
+        <div class="colorOption green" onclick="changeColor('green')">
+          <i class="bx bx-spray-can"></i>
+        </div>
+        <div class="colorOption purple" onclick="changeColor('purple')">
+          <i class="bx bx-spray-can"></i>
+        </div>
+      </div>
+
+      <div class="bx bx-moon" id="darkMode-icon"></div>
+
+      <div class="wrapper">
+        <div class="cols cols0">
+          <span class="topline">Olá</span>
+          <h1>Eu Sou <b id="palavra"></b></h1>
+          <p>
+            <br />
+            <i>
+              “Uma máquina consegue fazer o trabalho de 50 homens ordinários.
+              Nenhuma máquina consegue fazer o trabalho de um homem
+              extraordinário”. Elbert Hubbard – escritor.</i
+            >
+          </p>
+          <div class="buttons">
+            <a href="#tabs"><button class="btn">Vem Comigo</button></a>
+          </div>
+        </div>
+        <div class="cols">
+          <div class="imgbox">
+            <img id="image" src="images/developers-world.png" />
+          </div>
+        </div>
+      </div>
+
+      <section class="portifolio" id="portifolio">
+        <h2 class="heading">O que ando... <b>Fazendo.</b></h2>
+
+        <div class="portifolio-container">
+          <div class="portifolio-box">
+            <img src="images/Projeto1.png" alt="" />
+
+            <div class="portifolio-layer">
+              <h4>MarioJump</h4>
+              <p>
+                Projeto Educacional, uso básico de HTML, CSS e intermediário de JavaScript.
+              </p>
+              <a href="https://marcosds013.github.io/MarioJump/" target="_blank"><i class="bx bx-link-external"></i></a>
+            </div>
+          </div>
+          <div class="portifolio-box">
+            <img src="images/RoseHair.png" alt="" />
+
+            <div class="portifolio-layer">
+              <h4>RoseHair</h4>
+              <p>
+                Site criado para um salão de cabelereiro.
+              </p>
+              <a href="https://www.rosehair.me" target="_blank"><i class="bx bx-link-external"></i></a>
+            </div>
+          </div>
+          <div class="portifolio-box">
+            <img src="images/ProjetoERP.png" alt="" />
+
+            <div class="portifolio-layer">
+              <h4>Projeto ERP</h4>
+              <p>
+                Criação e Apresentação em sala, de um site sobre a tecnologia ERP.
+              </p>
+              <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+          </div>
+          <div class="portifolio-box">
+            <img src="images/projetos-portifolio.png" alt="" />
+
+            <div class="portifolio-layer">
+              <h4>Em Breve</h4>
+              <p>
+                Em Breve
+              </p>
+              <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+          </div>
+          <div class="portifolio-box">
+            <img src="images/projetos-portifolio.png" alt="" />
+
+            <div class="portifolio-layer">
+              <h4>Em Breve</h4>
+              <p>
+                Em Breve
+              </p>
+              <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+          </div>
+          <div class="portifolio-box">
+            <img src="images/projetos-portifolio.png" alt="" />
+
+            <div class="portifolio-layer">
+              <h4>Em Breve</h4>
+              <p>
+                Em Breve
+              </p>
+              <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="services" id="services">
+      <h2 class="heading">Vamos lá...<b>Veja no que posso lhe ajudar!</b></h2>
+
+      <div class="services-container">
+        <div class="services-box">
+        <i class="bx bx-code-alt"></i>
+        <h3>Projetos Web</h3>
+        <p>Desenvolvelvimento e Programação de sites Modernos, Funcionais, Responsivos e Personalizados, além de não menos importantes, Testes, Manutenção, Marketing Digital e CEO para criar uma identidade única para seu Cliente.</p>
+        <a href="#" class="btn">Saiba Mais</a>
+      </div>
+      <div class="services-box">
+        <i class="bx bxs-paint"></i>
+        <h3>Web Design</h3>
+        <p>Conhecimentos em UI Designer, fazendo uma melhor interação entre usuário e interface visual.Iremos Projetar Layouts e claro melhorar, adequar e(ou) criar Logomarcas de acordo com a necessidade do Negócio.</p>
+        <a href="#" class="btn">Saiba Mais</a>
+      </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="page">
+
+        <h2 class="heading">Curioso<b>(a)</b>? Me conheça <b>melhor.</b></h2>
+
+      <main>
+        <div id="tabs">
+          <div class="tab-links">
+            <button data-id="prepare" data-open>Sobre Mim</button>
+            <button data-id="produce">Soft Skills</button>
+            <button data-id="delivery">Hard Skills</button>
+          </div>
+
+          <div class="tab-content">
+            <section id="prepare">
+              <h2>Quem sou eu<b>.</b></h2>
+              <p>
+                Sou o <b>M</b>arcos <b>D</b>ias da <b>S</b>ilva, residente do litoral de SP. Atualmente aluno 
+                do 2° módulo do curso técnico em Desenvolvimento de Sistemas
+                da Etec em São Vicente SP.<br /><br />Amo <b>&#10084;</b> o
+                FrontEnd, maaaaaas aos poucos botando as mãozinhas e me aprofundando em desenvolvimento
+                BackEnd me aperfeiçoando em NodeJs. <br /><br />
+                Precisando de uma mente para pensar em
+                algo novo para seu negócio me contate, está precisando de mais "braços" 
+                para seu projeto me chame, precisando concluir metas e etapas com seu Squad, lhe aguardo...<br><br>
+                Se você é do 3° setor e tem um projeto envolvendo crianças, grupos vulneráveis, animais, meio ambiente e que seja não governamental e sem fins lucrativos, adorarei
+                ser um voluntário, ajudar e dividir meu conhecimento sobre tecnologia.
+              </p>
+
+              <img src="images/MarcosDS.png" alt="MarcosDS" />
+            </section>
+
+            <section id="produce">
+              <h2>Mente Criativa<b>.</b></h2>
+              <p>
+                Gosto de pensar de forma empática ao criar coisas novas, vivo
+                fora da caixinha e não quero criar a roda, mas sempre
+                aperfeiçoar e deixar por que não, as coisas mais atraentes.
+              </p>
+              <h2>Perseverança e Proatividade<b>.</b></h2>
+              <p>
+                Não sou de desistir fácil por que dou valor ao caminho que
+                trilho para chegar aos meu objetivos, além de gostar de ser
+                protagonista e sempre dar o "primeiro passo" para as coisas.
+              </p>
+              <h2>Colaboração e Comunicação<b>.</b></h2>
+              <p>
+                Está ai o melhor de mim.... extremamente participativo e
+                comunicativo, tenho ótimas relações interpessoais e adoro
+                auxíliar pessoas no dia a dia.
+              </p>
+            </section>
+            <section id="delivery">
+              <h2>FrontEnd<b>.</b></h2>
+              <p><i class='bx bxl-html5'></i>HTML <b> ­­­»» </b> Intermediário</p>
+              <p><i class='bx bxl-css3'></i>CSS <b> ­­­»» </b> Intermediário</p>
+              <p><i class='bx bxl-javascript'></i>JS <b> ­­­»» </b> Intermediário</p>
+              <p><i class='bx bxl-react'></i>React <b> ­­­»» </b> Básico</p>
+              <p><i class='bx bxl-bootstrap' ></i>Bootstrap <b> ­­­»» </b> Básico</p>
+              <p><i class='bx bx-edit'></i>Designer <b> ­­­»» </b> Intermediário</p>
+              <p><i class='bx bxl-git' ></i>Git<b> ­­­»» </b> Intermediário</p>
+              <br />
+              <h2>BackEnd<b>.</b></h2>
+              <p><i class='bx bxl-c-plus-plus'></i>C# <b> ­­­»» </b> Básico</p>
+              <p><i class='bx bxl-php'></i>PHP <b> ­­­»» </b> Básico</p>
+              <p><i class='bx bx-data'></i>MySQL <b> ­­­»» </b> Intermediário</p>
+              <p><i class='bx bxl-nodejs'></i>NodeJS <b> ­­­»» </b> Básico</p>
+            </section>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-text">
+        <p>
+          <i id="rocket" class="bx bx-rocket"></i>Copyright &copy; 2023 by
+          Marcos DS | All Rights Reserved.
+        </p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
