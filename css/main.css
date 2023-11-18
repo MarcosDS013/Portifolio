@@ -2110,14 +2110,14 @@ form textarea:required:valid {
 
 .header__logo {
   position: relative;
-  width: 18rem;
+  width: 10rem;
   height: 100%;
-  margin-top: -5rem;
+  margin-top: -2rem;
   transition: 0.8s ease-in-out;
 }
 
 .header__logo:hover {
-  width: 16rem;
+  width: 12rem;
 }
 
 .menu-trigger {
